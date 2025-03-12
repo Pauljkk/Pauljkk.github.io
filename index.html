@@ -48,13 +48,21 @@
         }
         h2 {
             color: #444;
+            text-align: center;
         }
-        ul {
-            list-style-type: none;
-            padding: 0;
+        .card {
+            background: #ffffff;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
         }
-        li {
-            padding: 5px 0;
+        .card img {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
         }
         footer {
             text-align: center;
@@ -67,7 +75,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome to Paul's Website</h1>
     </header>
     
     <nav>
@@ -80,38 +88,47 @@
     
     <section id="biography">
         <h2>📋 Biography</h2>
-        <p>Hello! I am Chen Yi Jen (Paul), a passionate professional with expertise in Explainable AI.</p>
+        <p>Hello! I am Chen Yi Jen, researching in Explainable AI and Credit Scoring.</p>
     </section>
     
     <section id="education">
         <h2>🎓 Education</h2>
-        <ul>
-            <li>[Master] - [National Yang Ming Chiao Tung University], [Year2]</li>
-            <li>[Master] - [National Taipei University of Business], [Graduated]</li>
-        </ul>
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Education Icon">
+            <p><strong>Master</strong> - National Yang Ming Chiao Tung University, Year 2</p>
+        </div>
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Education Icon">
+            <p><strong>Master</strong> - National Taipei University of Business, Graduated</p>
+        </div>
     </section>
     
     <section id="work">
         <h2>💼 Work Experience</h2>
-        <ul>
-            <li>[Solution Architecture Department] at [Cathay Financial Holdings] ([Intern])</li>
-            <li>[Operational Risk Management Department] at [Cathay Life Insurance] ([Intern])</li>
-            <li>[Solution Architecture Department] at [Cathay United Bank] ([Intern])</li>
-
-        </ul>
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Work Icon">
+            <p><strong>Intern</strong> - Solution Architecture Department, Cathay Financial Holdings</p>
+        </div>
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Work Icon">
+            <p><strong>Intern</strong> - Operational Risk Management Department, Cathay Life Insurance</p>
+        </div>
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Work Icon">
+            <p><strong>Intern</strong> - Solution Architecture Department, Cathay United Bank</p>
+        </div>
     </section>
     
     <section id="projects">
         <h2>📝 Projects</h2>
         <ul>
-            <li><a href="[https://www.overleaf.com/project/65e441d99c9177f25d05b720]">[An Interpretable Framework for Credit Default Prediction:
-SHAP-Based Feature Select-than-Interact in Logistic Regression]</a></li>
+            <li><a href="https://www.overleaf.com/project/65e441d99c9177f25d05b720">An Interpretable Framework for Credit Default Prediction: SHAP-Based Feature Select-than-Interact in Logistic Regression</a></li>
         </ul>
     </section>
     
     <section id="contact">
         <h2>📎 Contact</h2>
-        <p>Email: <a href="pauljkk20001009@gmail.com">pauljkk20001009@gmail.com</a></p>
+        <p>Email: <a href="mailto:pauljkk20001009@gmail.com">pauljkk20001009@gmail.com</a></p>
     </section>
     
     <footer>
